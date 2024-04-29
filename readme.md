@@ -55,8 +55,6 @@ It's okay for this application to look very basic, though this is up to you. For
 
 ## How to run Tim's solution
 
-1. Copy settings_example.py and rename to settings.py
-2. Update 'PLACEHOLDER_LOCATATION_FOR_SQLLITE' in newly created settings.py file to match path of SQLLITE file in ./blog
-3. Run Server with ~python3 blog/manage.py runserver 3001~ (you may need to run in ./blog: pip install -r requirements.txt)
-4. Run Client with npm run dev from ./client/nextjs-blog (you will need: npm install)
-5. This should allow you to surf the front and back end, which displays data from the sqllite database in solution, which will need to be populated using a db viewer of choice
+1. Run Server with python3 blog/manage.py runserver 3001 (you may need to run in ./blog: pip install -r requirements.txt)
+2. Run Client with npm run dev from ./client/nextjs-blog (you will need: npm install)
+3. This should allow you to surf the front and back end, which displays data from the sqllite database in solution, which will need to be populated using a db viewer of choice
