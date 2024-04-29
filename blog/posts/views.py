@@ -22,7 +22,7 @@ def post(request, slug):
     }
     
     response = JsonResponse({'post': serialized_post})
-    response['Access-Control-Allow-Origin'] = "http://localhost:3000/"
+    response['Access-Control-Allow-Origin'] = "http://localhost:3000"
 
     return response
 
@@ -39,7 +39,7 @@ def posts(request):
     ]
     
     response = JsonResponse({'post': serialized_blog_posts})
-    response["Access-Control-Allow-Origin"] = "http://localhost:3000/"
+    response["Access-Control-Allow-Origin"] = "http://localhost:3000"
    
     return response
    
