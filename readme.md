@@ -51,3 +51,12 @@ It's okay for this application to look very basic, though this is up to you. For
 * Please build the client in a Javascript client framework - e.g. Ember, React, Vue.js etc.
 * Don’t worry about styling/making the site look good. It purely needs to demonstrate that the javascript is consuming your API and turning the json into useful content on-screen.
 * We recommend you start by building the API to provide data to the client, but leave out the tags functionality initially.  Come back and complete the tags when the rest of the application is working and if you have the time.
+
+
+## How to run Tim's solution
+
+1. Copy settings_example.py and rename to settings.py
+2. Update 'PLACEHOLDER_LOCATATION_FOR_SQLLITE' in newly created settings.py file to match path of SQLLITE file in ./blog
+3. Run Server with ~python3 blog/manage.py runserver 3001~ (you may need to run in ./blog: pip install -r requirements.txt)
+4. Run Client with npm run dev from ./client/nextjs-blog (you will need: npm install)
+5. This should allow you to surf the front and back end, which displays data from the sqllite database in solution, which will need to be populated using a db viewer of choice
